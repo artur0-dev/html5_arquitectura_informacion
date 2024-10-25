@@ -1,0 +1,56 @@
+.menu{
+    display: flex;
+    align-items: center;
+}
+nav {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 5%;
+}
+nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative; /* siempre lo posiciona abajo*/
+    width: 100%;
+    bottom: 0;
+}
+img{
+    width: 100%;
+    height: 75vh;
+    border-radius: 5%;
+}
+#especies{
+    text-align: center;
+}
+.div-caja{
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    
+}
+.div-caja div{
+    flex: 1; /* Ajusta todas las imagenes de tamaño */
+    margin: 2%;
+}
+.div-caja img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.div-caja p{
+    text-align: justify;
+}

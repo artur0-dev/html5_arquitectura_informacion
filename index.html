@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Arquitectura de la información</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="águila favicon.png" type="image/png">
+</head>
+<body>
+    <div class="menu">
+        <header><h1>Águilas</h1></header>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#especies">Especies</a>
+            <a href="#habitat">Hábitat</a>
+            <a href="#galeria">Galería</a>
+            <a href="#contactanos">Contacto</a>
+        </nav>
+    </div>
+    <main>
+        <section id="inicio">
+            <img src="aguila.jpg">
+        </section>
+        <section id="especies">
+            <h2>Especies</h2>
+            <div class="div-caja">
+                <div>
+                    <h3>Aguila Real</h3>
+                    <img src="aguilareal.jpg">
+                    <p>Es una de las aves rapaces más conocidas y admiradas por su imponente tamaño y fuerza. Con un plumaje marrón oscuro y una envergadura que puede alcanzar los 2.3 metros, el águila real es símbolo de poder y libertad. Habita principalmente en montañas y zonas boscosas de Europa, Asia y América del Norte.</p>
+                </div>
+                    
+                <div>
+                    <h3>Milano Real</h3>
+                    <img src="milanoreal.jpg">
+                    <p>Es un ave de presa elegante y ágil, caracterizada por su cola ahorquillada y un plumaje marrón rojizo. Su envergadura puede llegar a los 1.6 metros. El milano real se encuentra en Europa y el noroeste de África, y es conocido por sus hábitos de carroñero, aunque también caza pequeños mamíferos y aves.</p>
+                </div>
+
+                <div>
+                    <h3>Ibis Seremita</h3>
+                    <img src="ibis-seremita.jpg">
+                    <p>Aunque no es un águila, el Ibis Eremita es un ave fascinante y en peligro crítico de extinción. Con su plumaje negro brillante y una curiosa cabeza calva, esta ave solía ser común en Europa, pero ahora solo se encuentra en pequeñas poblaciones en Marruecos y Siria. Es conocido por sus hábitos de alimentación en zonas rocosas y secas.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contactanos">
+            <h2>Contactanos</h2>
+            <form>
+                <label for="name">Nombre:</label><br>
+                <input type="text" id="name" name="name" required><br>
+    
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br>
+    
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+    
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Águilas</p>
+    </footer>
+</body>
+</html>
