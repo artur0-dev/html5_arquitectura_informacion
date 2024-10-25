@@ -22,7 +22,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: relative; /* siempre lo posiciona abajo*/
+    position: relative;
     width: 100%;
     bottom: 0;
 }
@@ -55,19 +55,21 @@ img{
     text-align: justify;
 }
 #contactanos{
-    background-color: #848584;
+    padding-top: 1%;
+    color: #ffffff;
+    background-color: #6c6d6c;
     text-align: center;
 }
 
 label{
     margin-bottom: 10px;
     font-weight: bold;
-    color: #333;
+    color: #ffffff;
 }
 input, textarea{
     width: 70%;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 2%;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
