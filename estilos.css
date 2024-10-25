@@ -54,3 +54,33 @@ img{
 .div-caja p{
     text-align: justify;
 }
+#contactanos{
+    background-color: #848584;
+    text-align: center;
+}
+
+label{
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+input, textarea{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+button{
+    width: 70%;
+    padding: 12px;
+    background-color: #2a2b2a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 2%;
+}
